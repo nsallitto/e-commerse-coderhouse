@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>e-commerce</title>
+</head>
+<body>
+    <div class="conteiner-fluid contenido">
+        <header class="row">
+            <div class="col-3">
+                <h1 class="logo">2F's Cap</h1>
+            </div>
+            <nav class="col-9">
+                <ul class="menu nav nav-pills p-2 d-flex justify-content-evenly gap-3">
+                    <li id="todasMarcas" class="menuBoton nav-item activo marca">
+                        <button class="botonMarca nav-link " aria-current="page" href="#">Todas las Marcas</button>
+                    </li>
+                    <li id="DC" class="menuBoton nav-item marca">
+                        <button class="botonMarca nav-link" aria-current="page" href="#">DC</button>
+                    </li>
+                    <li id="Hurley" class="menuBoton nav-item marca">
+                        <button class="botonMarca nav-link " aria-current="page" href="#">Hurley</button>
+                    </li>
+                    <li id="New-Era" class="menuBoton nav-item marca">
+                        <button class="botonMarca nav-link " aria-current="page" href="#">New-Era</button>
+                    </li>
+                   <li class="menuBoton nav-item">
+                        <a class="botonCarrito nav-link " aria-current="page" href="./carrito.html"><i class="bi bi-cart"></i>Carrito</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="catalogo container">
+            <h2 id="tituloPrincipal" class="catalogoTitulo">Todas las Marcas</h2>
+            <div id="catalogoProductos" class="catalogoProductos">
+                <!-- ESTO SE RELLENA CON JS -->
+            </div>
+        </section>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./js/productos.js"></script>
+    
+</body>
+</html>

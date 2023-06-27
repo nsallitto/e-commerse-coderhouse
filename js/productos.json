@@ -1,0 +1,74 @@
+[
+    {
+    "id":"g1",
+    "nombre": "gorra",
+    "marca":"DC",
+    "descripcion":"negra",
+    "img":"../img/dc-black.jpg",
+    "precio":5000
+    },
+    {
+    "id":"g2",
+    "nombre": "gorra",
+    "marca":"DC",
+    "descripcion":"gris",
+    "img":"../img/dc-grey.jpg",
+    "precio":5000
+    },
+    {
+    "id":"g3",
+    "nombre": "gorra",
+    "marca":"DC",
+    "descripcion":"blanca",
+    "img":"../img/dc-white.jpg",
+    "precio":5000
+    },
+    {
+    "id":"g4",
+    "nombre": "gorra",
+    "marca":"Hurley",
+    "descripcion":"azul",
+    "img":"../img/hurley-blue.jpg",
+    "precio":5000
+    },
+    {
+    "id":"g5",
+    "nombre": "gorra",
+    "marca":"Hurley",
+    "descripcion":"gris y negra",
+    "img":"../img/hurley-greyblack.jpg",
+    "precio":5000
+    },
+    {
+    "id":"g6",
+    "nombre": "gorra",
+    "marca":"New-Era",
+    "descripcion":"boston",
+    "img":"../img/new-era-boston.jpg",
+    "precio":5000
+    },
+    {
+    "id":"g7",
+    "nombre": "gorra",
+    "marca":"New-Era",
+    "descripcion":"newyork",
+    "img":"../img/new-era-ny.jpg",
+    "precio":5000
+    },
+    {
+    "id":"g8",
+    "nombre": "gorra",
+    "marca":"New-Era",
+    "descripcion":"raiders",
+    "img":"../img/new-era-raiders.jpg",
+    "precio":5000
+    },
+    {
+    "id":"g9",
+    "nombre": "gorra",
+    "marca":"New-Era",
+    "descripcion":"redsox",
+    "img":"../img/new-era-redsox.jpg",
+    "precio":5000
+    }
+]
